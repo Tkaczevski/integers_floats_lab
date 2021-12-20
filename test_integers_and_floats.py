@@ -10,4 +10,4 @@ class Test(TestCase):
         self.assertEqual(float_integer_multiplication(), type(1.0))
 
     def test_inputs_are_strings(self):
-        self.assertEqual(inputs_are_strings(), 7 / 2.2)
+        self.assertEqual(inputs_are_strings(), type(7 / 2.2))
